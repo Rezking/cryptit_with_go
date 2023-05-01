@@ -8,7 +8,6 @@ import (
 )
 
 func main() {
-	// fmt.Println(encrypt.Nimbus("Kodekloud"))
 	encrypted := encrypt.Nimbus("Kodekloud")
 	fmt.Println(encrypted)
 
